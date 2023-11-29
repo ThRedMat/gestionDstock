@@ -1,16 +1,15 @@
-# gestiondesstocks
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+/// Cette application Flutter permet de gérer les stocks d'un magasin.
+/// Elle offre les fonctionnalités suivantes :
+/// - Ajouter un produit au stock avec son nom, sa quantité et son prix.
+/// - Supprimer un produit du stock en le sélectionnant dans la liste.
+/// - Modifier la quantité d'un produit existant dans le stock.
+/// - Afficher la liste des produits avec leurs informations.
+/// - Calculer la valeur totale du stock en multipliant la quantité par le prix de chaque produit.
+/// 
+/// Pour utiliser cette application, il est nécessaire d'avoir Flutter installé sur votre machine.
+/// Vous pouvez exécuter l'application en utilisant la commande `flutter run` dans le répertoire du projet.
+/// Assurez-vous d'avoir un émulateur ou un appareil connecté pour afficher l'application.
+/// 
+/// Ce code est sous licence MIT. Vous pouvez le modifier et l'utiliser à des fins personnelles ou commerciales.
+/// Pour plus d'informations, consultez le fichier README.md du projet.
+i
