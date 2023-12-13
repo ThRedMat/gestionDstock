@@ -1,10 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gestiondesstocks">
+     <uses-permission android:name="android.permission.CAMERA" />
+      <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+
    <application
         android:label="gestiondesstocks"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-        <activity
+       <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
@@ -27,7 +33,7 @@
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
-        <meta-data
+         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
